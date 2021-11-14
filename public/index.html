@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Milan Ilic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random screenshot</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Welcome</h1>
+        <h2>Lets see some random screenshot</h2>
+        <p>Full disclosure: This is made for educational purposes and fun. Please use it respectably.</p>
+        <form action="/run" method="POST">
+            <button type="submit" onclick="loading()" id="btn_form">SEARCH</button>
+        </form>
+        <div id="img_holder"></div>
+    </main>
+    <footer>
+        <p>2021 - <span id="current_y"></span></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
